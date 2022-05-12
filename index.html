@@ -8,10 +8,10 @@
 
 
     <!--======= Favicon =======-->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="shortcut icon" href="assets/img/favicon-32x32.png">
+
+    <!--======= boxicons =======-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
     <!--======= CSS =======-->
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -21,16 +21,126 @@
 
 <body>
 
-    <!--======= header =======-->
+    <!--======= Header =======-->
     <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">Mateo</a>
 
+
+            <div class="nav_menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">
+                            <i class='bx bx-home-alt'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#work" class="nav_link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#contact" class="nav_link">
+                            <i class='bx bxs-message-square-detail'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--======= theme change button =======-->
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+
+            <!--======= translate button =======-->
+        </nav>
     </header>
 
-    <!--======= favicon =======-->
-    <link rel="shortcut icon" href="assets/img/favicon-32x32.png">
+    <!--======= Main =======-->
+    <main class="main">
 
-    <!--======= boxicons =======-->
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        <!--======= Home section =======-->
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_data">
+                    <span class="home_greeting">Hola, soy</span>
+                    <h1 class="home_name">Mateo Cristino</h1>
+                    <h3 class="home_education">Frontend developer</h3>
+
+                    <div class="home_buttons">
+                        <a download="" href="assets/pdf/CV_MateoCristino.pdf.pdf" class="button button--ghost">
+                            Descargar CV
+                        </a>
+                        
+                        <a href="#about" class="button">Acerca de mí</a>
+                    </div>
+                </div>
+
+                <div class="home_handle">
+                    <img src="assets/img/fotoit.jpg" alt="" class="home_img">
+                </div>
+
+                <div class="home_social">
+                    <a href="https://www.linkedin.com/in/mateocristino/" class="home_social-link">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+
+                    <a href="https://github.com/mateocristino" class="home_social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home_scroll">
+                    <i class='bx bx-mouse home_scroll-icon'></i>
+                    <span class="home_scroll-name">
+                        Deslízate hacia abajo
+                    </span>
+                </a>
+            </div>
+        </section>
+        
+        <!--======= About section =======-->
+        <section class="about section" id="about">
+
+        </section>
+        
+        <!--======= Skills section =======-->
+        <section class="skills section" id="skills">
+
+        </section>
+
+        <!--======= Services section =======-->
+        <section class="services section" id="services">
+
+        </section>
+        
+        <!--======= Work section =======-->
+        <section class="work section" id="work">
+
+        </section>
+        
+        <!--======= Contact section =======-->
+        <section class="contact section" id="contact">
+
+        </section>
+    </main>
+
+
+
+
 
     <!--======= main.js =======-->
     <script src="assets/js/main.js"></script>
